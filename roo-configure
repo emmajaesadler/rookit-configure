@@ -119,7 +119,7 @@ fi
 
 if [ ! -d ~/.roo ]
 then
-    git clone https://$ROO_USER:$ROO_PWD@github.com/emmajaesadler/roo ~/.roo
+    git clone https://$ROO_USER:$ROO_PWD@github.com/emmajaesadler/rookit.git ~/.roo
 else
     cd ~/.roo && git pull
 fi
